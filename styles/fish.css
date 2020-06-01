@@ -4,10 +4,17 @@
 
 .fish {
     background-color: mediumvioletred;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 
 .fish__picture {
     max-width: 15rem;
     max-height: 15rem;
+}
+
+.fish__card {
+    
 }
