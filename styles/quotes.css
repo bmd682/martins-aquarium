@@ -1,10 +1,16 @@
 .quoteList {
-    background-color: lightyellow;
+    background-color: rgb(230, 196, 3);
     display: flex;
     justify-content: space-around;
+    padding: 0.2rem;
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
 }
 
 .quote {
     background-color: yellow;
     border: 1px solid brown;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+    padding: 0.2rem;
 }
