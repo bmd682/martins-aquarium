@@ -1,3 +1,4 @@
+
 const fishCollection = [
     {
         species: "Trigger Fish",
