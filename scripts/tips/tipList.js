@@ -6,7 +6,7 @@ const tipList = () => {
 
     // "for of" loop is specifically used for iterating data structures like arrays, strings, nodelists, etc
     for (const currentTipObject of tipCollection) {
-        const tipHTML = fishConverter(currentTipObject)
+        const tipHTML = tipConverter(currentTipObject)
     
         // finds tipList class in html document, then stores that html tag in a variable
         const tipArticleElement = document.querySelector(".tipList")
