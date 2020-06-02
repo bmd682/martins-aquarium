@@ -1,5 +1,6 @@
 /*
 This function will convert a single fish object to an HTML representation and return it
+fishObject is the parameter, and is what an argument will be named as as it is passed to fishConverter
 */
 
 const fishConverter = (fishObject) => {

@@ -6,6 +6,8 @@ const fishList = () => {
 
     // "for of" loop is specifically used for iterating data structures like arrays, strings, nodelists, etc
     for (const currentFishObject of fishCollection) {
+
+        // convert current fishObject to HTML, then store it in a variable
         const fishHTML = fishConverter(currentFishObject)
     
         // finds fishList class in html document, then stores that html tag in a variable
