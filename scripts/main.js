@@ -14,4 +14,8 @@ getFishData().then(
 
 // fishList()
 //if fishList is run here, it would run before the fishCollection array gets populated and would show zero fish on the webpage
-tipList()
+getTipData().then(
+    () => {
+        tipList()
+    }
+)

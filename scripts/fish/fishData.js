@@ -4,7 +4,7 @@ let fishCollection = []
 const getFishData = () => {
     // this fetches the data from the server/url that is hosting it
     //then means do this function after the one its appended to finishes: it is always a function after ".then"
-    return fetch("http:localhost:8088/fish").then(
+    return fetch("http://localhost:8088/fish").then(
         (response) => {                                         //take the response, the stuff you are fetching
             return response.json()                              //.json() converts the http response back to javascript
         }
